@@ -1,0 +1,19 @@
+/* Dark mode styles */
+body {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+a {
+  color: #89b4fa;
+}
+
+header, footer, nav, .site-header, .site-footer {
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+}
+
+.post-title, .post-meta, .site-title {
+  color: #f2f2f2;
+}
+
