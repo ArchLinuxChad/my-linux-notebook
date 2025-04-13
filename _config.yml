@@ -1,7 +1,0 @@
-title: My Linux Notebook
-description: Notes, setups, and experiments
-theme: minima
-minima:
-  include_css:
-    - /assets/css/custom.css
-
