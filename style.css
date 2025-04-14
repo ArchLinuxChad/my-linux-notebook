@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    background-color: #1f1f28; /* Dark background */
+    color: #e0def4; /* Light text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Links */
+a {
+    color: #9ccfd8; /* Soft cyan for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f6c177; /* Soft yellow on hover */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #eb6f92; /* Soft pink for headings */
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: #26233a; /* Dark gray background for header/footer */
+    color: #e0def4; /* Light text for header/footer */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Code Block */
+pre, code {
+    background-color: #3a3a4e; /* Dark background for code blocks */
+    color: #e0def4; /* Light text for code */
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+}
+
+/* Buttons */
+button {
+    background-color: #f6c177; /* Soft yellow button */
+    color: #1f1f28; /* Dark text on button */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eb6f92; /* Soft pink hover for buttons */
+}
+
