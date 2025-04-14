@@ -1,0 +1,76 @@
+/* Global styles */
+body {
+  background-color: #191724;
+  color: #e0def4;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #1f1d2e;
+}
+
+h1 {
+  color: #eb6f92;
+  margin-bottom: 1rem;
+}
+
+/* Search bar */
+#searchInput {
+  width: 80%;
+  max-width: 400px;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #908caa;
+  background-color: #26233a;
+  color: #e0def4;
+  font-size: 1rem;
+}
+
+/* Main container */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Post link wrapper */
+.post-link {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+  margin-bottom: 1.5rem;
+}
+
+/* Post box */
+.post {
+  background: linear-gradient(145deg, #1f1d2e, #26233a);
+  padding: 1.25rem;
+  border-radius: 10px;
+  border: 1px solid #2a283b;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.post:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+/* Post heading */
+.post h2 {
+  margin-top: 0;
+  color: #eb6f92;
+}
+
+/* Post paragraph */
+.post p {
+  color: #e0def4;
+}
+

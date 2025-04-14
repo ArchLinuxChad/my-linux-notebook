@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Linux Notebook - Posts</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <center><h1>Posts</h1></center>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Posts</title>
+  <link rel="stylesheet" href="post-style.css" />
+</head>
+<body>
 
-    <center><a href="index.html">Go Back</a></center>
-  </body>
+<header>
+  <h1>📓 My Posts</h1>
+  <input type="text" id="searchInput" placeholder="Search posts..." />
+</header>
+
+<main id="postList">
+  <a href="posts/my-time-with-cosmic.html" class="post-link">
+    <div class="post">
+      <h2>My Time With Cosmic</h2>
+      <p>This is a post about my experience with the new cosmic desktop from system 76</p>
+    </div>
+  </a>
+
+</main>
+
+<script>
+  const searchInput = document.getElementById('searchInput');
+  const posts = document.querySelectorAll('.post-link');
+
+  searchInput.addEventListener('input', () => {
+    const query = searchInput.value.toLowerCase();
+    posts.forEach(postLink => {
+      const content = postLink.textContent.toLowerCase();
+      postLink.style.display = content.includes(query) ? 'block' : 'none';
+    });
+  });
+</script>
+
+</body>
 </html>
+
