@@ -11,7 +11,6 @@ body {
 /* Links */
 a {
     color: #9ccfd8; /* Soft cyan for links */
-    text-decoration: none;
 }
 
 a:hover {
@@ -69,4 +68,13 @@ img {
 
 .post {
   max-width: 70%
+}
+
+.navbar li {
+  display: inline;
+  padding: 25px;
+}
+
+.navbar ul {
+  padding: 0px;
 }
